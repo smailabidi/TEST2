@@ -1,0 +1,88 @@
+.modal-content .shortcode_info .row {
+    margin-top: 20px;
+}
+
+.doc_left_sidebarlist {
+    padding-top: 60px;
+}
+
+
+/** === Comments === **/
+.wedocs-comments-wrap {
+    padding-right: 18px;
+    padding-bottom: 100px;
+    margin-top: -40px;
+}
+
+.wedocs-comments-wrap #comments {
+    padding: 0 28px 0 0
+}
+
+.full-width-doc .wedocs-comments-wrap {
+    padding-right: 18px;
+    padding-left: 15px;
+    padding-bottom: 100px;
+}
+
+.full-width-doc .wedocs-comments-wrap #comments {
+    padding: 0 15px;
+}
+
+.full-width-doc .wedocs-comments-wrap .blog_comment_box {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+p .footnotes-link {
+    color: var(--brand_color) !important;
+}
+
+p .footnotes-link::after {
+    display: none;
+}
+
+.wedocs-comments-wrap .blog_comment_box.no_comments {
+    padding-top: 0;
+}
+
+.full-width-doc .body_fixed .doc_rightsidebar, .full-width-doc .body_fixed .doc_left_sidebarlist {
+    padding-top: 60px;
+}
+
+.doc_menu .nav-link {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 8px;
+}
+
+.doc_sidebar {
+    max-width: 270px;
+}
+.shortcode_info .elementor-widget-heading h2.elementor-heading-title, .shortcode_info h2 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding-top: 80px;
+    margin-top: -80px;
+}
+
+.nav-sidebar .nav-item.no_icon.active .nav-link img+img {
+    display: inline;
+}
+
+.modal-backdrop.show {
+    opacity: 0;
+    z-index: -1;
+}
+
+.doc-meta {
+    font-size: 14px;
+    color: var(--black_400);
+    position: relative;
+    z-index: 1;
+}
+
+.doc-meta .views::before {
+    content: "•";
+    margin: 0 4px;
+}
